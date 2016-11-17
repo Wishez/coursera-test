@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Coming+Soon');
+
+body {
+    font: 16px 'Gloria Hallelujah', cursive;
+    color:#000;
+}
+
+/* Header */
+
+
+#menu-list a {
+     border-bottom: 2px solid #000;
+}
+
+
+header .navbar-header{
+    background-color:#999;
+    height: 75px;
+    border-radius: 0;
+    border-bottom: 2px solid #000;
+}
+
+
+
+
+header span {
+    font: bold 30px 'Gloria Hallelujah', cursive;
+    color: #000;
+}
+
+#collapsable {
+    border-top: 0;
+    height: 143px;
+    overflow: hidden;
+    text-align: center;
+    margin-top: -10px;
+}
+.navbar-header button {
+   margin-top: 15px;
+    height: 40px;
+}
+
+
+#menu-list a {
+    font: 16px 'Gloria Hallelujah', cursive;
+    color: #000;
+    text-align: center;
+}
+
+#menu-list a:hover {
+    color:#929292;
+}
+/* End Header */
+
+/* Sections */
+#main-content h1 {
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-family: 'Coming Soon', cursive;
+    font-weight: bold;
+}
+section {
+    background-color: #999;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+    overflow: hidden;
+}
+    
+
+#main-content h2 {
+    margin-top: 10px;
+    font-family: 'Coming Soon', cursive;
+    font-size: 25px;
+}
+
+#main-content p {
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.chiken {
+    height: 1000px;
+}
+
+
+
+/*
+/* End Sections */
+
+@media  only screen and (min-width: 992px) {
+    
+    .navbar.navbar-default{
+        background-color: #999;
+        border-bottom: 2px solid #000;
+    }
+}
+
+@media  only screen and (min-width: 768px) {
+    .navbar.navbar-default{
+        background-color: #999;
+        border-bottom: 2px solid #000;
+    }
+    header .navbar-header {
+        border: 0;
+}
+    
+    
+@media  only screen and (max-width: 767px) {
+}
