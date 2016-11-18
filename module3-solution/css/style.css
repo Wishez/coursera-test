@@ -68,7 +68,9 @@ section {
     overflow: hidden;
 }
     
-
+#main-content .chiken p, #main-content .chiken h2 {
+    color: #fff;
+}
 #main-content h2 {
     margin-top: 10px;
     font-family: 'Coming Soon', cursive;
@@ -81,6 +83,7 @@ section {
 
 .chiken {
     height: 1000px;
+    background-color: #351010;
 }
 
 
